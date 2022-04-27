@@ -13,6 +13,8 @@ This is a real time chat application. There are two type of user, admin and norm
 
 ## Made by
 
-Md Nakibul Hosen Nahid,
-React JS Developer,
 Alpha OBS LLP
+
+### Developer
+
+Md Nakibul Hosen Nahid
