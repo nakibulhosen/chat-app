@@ -40,7 +40,6 @@ function uploader(
       if (allowed_file_types.includes(file.mimetype)) {
         cb(null, true);
       } else {
-        console.log("Multer error");
         cb(createError(error_msg));
       }
     },

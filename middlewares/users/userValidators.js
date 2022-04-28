@@ -53,7 +53,6 @@ const addUserValidationHandler = function (req, res, next) {
   const mappedErrors = errors.mapped();
   if (Object.keys(mappedErrors).length === 0) {
     next();
-    console.log("User validated ");
   } else {
     // remove uploaded files
     if (req.files.length > 0) {
