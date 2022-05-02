@@ -15,9 +15,9 @@ const {
 } = require("../middlewares/users/userValidators");
 
 const router = express.Router();
-
+const pageTitle = "User";
 // login
-router.get("/", decorateHtmlResponse("User"), getUsers);
+router.get("/", decorateHtmlResponse(pageTitle), getUsers);
 
 router.post(
   "/",
